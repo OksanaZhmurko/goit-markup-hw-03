@@ -427,7 +427,7 @@ background-color:var(--accent-color)
 .section-list{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .section-nav{
@@ -441,7 +441,6 @@ background-color:var(--accent-color)
 padding: 6px 22px;
 background: #F5F4FA;
 border-radius: 4px;
-margin-bottom: 50px;
 border: 0;
 
 font-family: inherit;
