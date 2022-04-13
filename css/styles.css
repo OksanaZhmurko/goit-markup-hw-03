@@ -461,16 +461,13 @@ cursor: pointer;
 }
 
 .section-item{
-    width: calc (100% / 3 - 30px);
-    margin-left: 30px;
-    margin-bottom: 30 px;
+width: calc (100% / 3 - 30px);
+margin-left: 30px;
+margin-bottom: 30 px;
 }
 
 .border {
-width: 370px;
-height: 404px;
-left: 215px;
-top: 262px;
+border-top: none;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
 margin-bottom: 30px;  
@@ -479,13 +476,9 @@ margin-bottom: 30px;
 
 
 .section-border{
-width: 370px;
-height: 404px;
-left: 215px;
-top: 262px;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
-
+border-top: none;
 }
 
 
