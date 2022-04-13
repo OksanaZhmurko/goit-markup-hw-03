@@ -46,7 +46,7 @@ margin: 0 auto;
     list-style: none;
 }
 
-.header-link, .header-mail, .header-tel,  .address-mail, .address-tel {
+.header-link, .footer-logo, .header-mail, .header-tel,  .address-mail, .address-tel {
     text-decoration: none;
 }
 
@@ -63,8 +63,8 @@ margin: 0 auto;
 
 .header{
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -168,7 +168,6 @@ color: var(--accent-color)
 .hero-title{
 margin-top: 0;
 margin-bottom: 30px;
-min-width: 696px;
 font-weight: 900;
 text-align: center;
 font-size: 44px;
@@ -180,8 +179,7 @@ color: #FFFFFF;
 
 .hero-content{
 padding: 200px 200px;
-background-color: #2F303A;
-    
+background-color: #2F303A;   
 }
 
 .hero-btn{
@@ -266,6 +264,7 @@ color: #212121;
 /*--------TEAM-------*/
 
 .team-img{
+display: block;
 width: 270px;
 height: 260px;
 padding-bottom: 30px;
@@ -328,21 +327,21 @@ padding-bottom: 30px;
 
 }
 
-.text-team :last-child {
+.text-team:last-child {
     margin-bottom: 0;
 }
 
 /*--------FOOTER-------*/
 
 .footer{
+display: block;
 padding: 60px  60px; 
 background: #2F303A;
 }
 
-.address-logo{
-display: flex;
+.footer-logo{
 margin-bottom: 20px;
-
+display: block;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -372,7 +371,6 @@ color: #FFFFFF;
 }
 
 .text-address{
-display: block;
 margin-bottom: 9px;
 font-family: 'Roboto';
 font-style: normal;
@@ -409,6 +407,13 @@ margin-bottom: 9px;
 
 /*--------SECTION-------*/
 
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+
 .section-btn:hover,
 .section-btn:focus{
 color: var(--first-btn-color);
@@ -423,6 +428,7 @@ background-color:var(--accent-color)
 
 .section-nav{
     margin-left: 8px;
+    border: 0;
 }
 
 .section-btn{
@@ -430,6 +436,7 @@ padding: 6px 22px;
 background: #F5F4FA;
 border-radius: 4px;
 margin-bottom: 50px;
+border: 0;
 
 font-family: inherit;
 font-weight: 500;
@@ -437,10 +444,9 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-
-color: #212121;
 cursor: pointer;
 }
+
 
 .section-list{
     display: flex;
