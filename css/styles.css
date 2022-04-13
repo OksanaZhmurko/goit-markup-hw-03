@@ -205,18 +205,18 @@ display: block;
 /*--------ABOUT-------*/
 
 .about-list {
-    display: flex;
+display: flex;
     
 }
 
 .about-item + .about-item{
-    margin-left: 30px;
+margin-left: 30px;
 }
 
 
 .about{
-    padding-top: 94px;
-    padding-bottom: 94px;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .about-title {
 margin-bottom: 10px;
@@ -241,14 +241,14 @@ color: #757575;
 
 
 .work.no-paddihg{
-    padding-top: 0;
-    padding-bottom: 0;
+padding-top: 0;
+padding-bottom: 0;
 }
 
 .work-list{
-    display: flex;
-    padding-bottom: 94px;
-    justify-content: space-between;
+display: flex;
+padding-bottom: 94px;
+justify-content: space-between;
 }
 
 .work-title{
@@ -271,27 +271,29 @@ padding-bottom: 30px;
 background: #FFFFFF;
 }
 
+
+
 .team-title{
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;   
+margin-bottom: 50px;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;     
 }
 
 .team-list{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-bottom: -30px;
+display: flex;
+flex-wrap: wrap;
+margin-left: -30px;
+margin-bottom: -30px;
 }
 
 .team-item{
-    width: calc (100% / 3 - 30px);
-    margin-left: 30px;
-    margin-bottom: 30 px;
+width: calc (100% / 4 - 30px);
+margin-left: 30px;
+margin-bottom: 30 px;
 }
 
 .team {
@@ -420,6 +422,7 @@ color: var(--first-btn-color);
 background-color:var(--accent-color)
 }
 
+
 .section-list{
     display: flex;
     justify-content: center;
@@ -427,8 +430,10 @@ background-color:var(--accent-color)
 }
 
 .section-nav{
+    display: flex;
     margin-left: 8px;
     border: 0;
+    margin-bottom: 50px;
 }
 
 .section-btn{
@@ -461,9 +466,29 @@ cursor: pointer;
     margin-bottom: 30 px;
 }
 
-.work-img{
-    margin-bottom: 20px;
+.border {
+width: 370px;
+height: 404px;
+left: 215px;
+top: 262px;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+margin-bottom: 30px;  
 }
+
+
+
+.section-border{
+width: 370px;
+height: 404px;
+left: 215px;
+top: 262px;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+
+}
+
+
 .section-title{
 margin-bottom: 4px;
 font-weight: 700;
@@ -481,5 +506,9 @@ line-height: 1.88;
 letter-spacing: 0.03em;
 color: #757575;
 }
+
+
+
+
 
 
